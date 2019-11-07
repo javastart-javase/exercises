@@ -7,9 +7,9 @@ package main.pl.pawtel.datatypes;
 public class DataTypes {
 
     public static void main(String[] args) {
-        int x = 10;
-        int y = 4;
-        int div = x / y;
+        double x = 10;
+        double y = 4;
+        double div = x / y;
         System.out.println(div);
     }
 }
