@@ -7,11 +7,9 @@ public class Cabrio {
     private boolean isMoving;
     private boolean isRoofOpen;
 
-    public Cabrio(String brand, String manufacturer, boolean isMoving, boolean isRoofOpen) {
+    public Cabrio(String brand, String manufacturer) {
         this.brand = brand;
         this.manufacturer = manufacturer;
-        this.isMoving = isMoving;
-        this.isRoofOpen = isRoofOpen;
     }
 
     public String getBrand() {
