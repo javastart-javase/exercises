@@ -1,7 +1,7 @@
 package main.pl.pawtel.drinks;
 
 public class DrinkApp {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Ingredient ingredientA = new Ingredient("Sok ananasowy", 100);
         Ingredient ingredientB = new Ingredient("Likier Malibu", 50);
         Ingredient ingredientC = new Ingredient("Mleko kokosowe", 100);
