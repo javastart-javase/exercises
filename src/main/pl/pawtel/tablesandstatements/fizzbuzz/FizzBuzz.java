@@ -1,11 +1,13 @@
 package main.pl.pawtel.tablesandstatements.fizzbuzz;
 
 import java.util.ArrayList;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class FizzBuzz {
 
     public void fizzBuzz(ArrayList<Integer> numbers) {
-        for (Integer i = 1; i < 100; i++) {
+        for (Integer i = 1; i < 101; i++) {
             numbers.add(i);
         }
         for (Integer iNumber : numbers) {
